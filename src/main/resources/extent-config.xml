@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentReports>
+    <configuration>
+        <!-- report theme --> <!--standard,dark-->
+        <theme>dark</theme>
+        <!--document encoding --> <!--defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!--protocols for script and stylesheets --> <!--defaults to https -->
+        <protocol>https</protocol>
+
+        <!--Title of Document -->
+        <documentTitle>Cucumber Automation Report</documentTitle>
+
+        <!--report name -displayed at Top Nav-->
+        <reportName>NopCommerce Automation Report</reportName>
+
+        <!--global date overrirde --> <!--defaults to  yyy-MM-dd -->
+        <dateFormat>yyyy-MM-dd</dateFormat>
+
+        <!--global time override --> <!--details to HH:mm:ss-->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- Chart Visibility on Open (true/false) -->
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+
+        <!-- Enable Timeline (true/false) -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    // Custom JavaScript code
+                });
+            ]]>
+        </scripts>
+
+        <!-- Custom Styles -->
+        <styles>
+            <![CDATA[
+                /* Custom CSS styles */
+            ]]>
+        </styles>
+
+        <!-- Additional Configuration Options -->
+        <offlineMode>true</offlineMode>
+        <viewOrder>ascending</viewOrder>
+    </configuration>
+</extentReports>
